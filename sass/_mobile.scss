@@ -1,0 +1,152 @@
+.mainIndex{
+    .nombre{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+        background-image: url(../imagenes/imagenFondo.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        img{
+            width: 5rem;
+            height: 5rem;
+        }
+
+        h1{
+            font-size: 80px;
+            margin: 0;
+        }
+
+        h2{
+            font-size: 40px;
+        }
+    }
+
+    .bienvenida{
+        padding: 2rem;
+        font-family: 'Oswald', sans-serif;
+
+        h2{
+            margin: 0;
+
+            span{
+                color: $amarillo;
+            }
+        }
+
+        h3{
+            margin-bottom: 2rem;
+        }
+        
+    }
+
+    .disciplinas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(../imagenes/fondo2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 1rem;
+
+        div{
+            background-color: black;
+            border-top: 8px solid $amarillo;
+            margin: 2.3rem;
+            padding: 1.5rem;
+            font-family: 'Bebas Neue', cursive;
+
+            h2{
+                color: $amarillo;
+                font-size: 2.6rem;
+                margin-bottom: 1rem;
+            }
+
+            p{
+                font-size: x-large;
+                font-family: 'Oswald', sans-serif;
+                font-weight: normal;
+                margin-bottom: 2rem;
+                
+                span{
+                    color: $amarillo;
+                }
+            }
+
+            ul{
+                li{
+                    p{
+                        font-size: x-large;
+                        font-family: 'Bebas Neue', cursive;
+
+                    }
+                }
+            }
+            
+            a{
+                color: $amarillo;
+
+                p{
+                    font-family: 'Bebas Neue', cursive;
+                    margin-top: 2rem;
+                    margin-bottom: 0;
+                    text-align: end;
+                    font-size: large;
+                }
+            }
+        }
+    }
+
+    .suplementos{
+        padding: 2rem;
+
+        div{
+            h2{
+                color: $amarillo;
+                font-size: 2.6rem;
+                margin-bottom: 1rem;
+                font-family: 'Bebas Neue', cursive;
+            }
+
+            p{
+                font-size: x-large;
+                font-family: 'Oswald', sans-serif;
+                font-weight: normal;
+                margin-bottom: 2rem;
+                
+                span{
+                    color: $amarillo;
+                }
+            }
+        }
+
+        .imgProteina{
+            display: flex;
+            justify-content: center;
+
+            img{
+                width: 20rem;
+                height: 20rem;
+            }
+        }
+        
+        a{
+            color: $amarillo;
+
+            p{
+                font-family: 'Bebas Neue', cursive;
+                margin-top: 2rem;
+                margin-bottom: 0;
+                text-align: end;
+                font-size: large;
+            }
+        }
+    }
+}
